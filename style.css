@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(170, 168, 168);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar{
+    background-color: lightgrey;
+    border-radius: 15px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 97vh;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    border-radius: 25px;
+    margin-top: 5px;
+    display: block;
+    padding: 15px 30px;
+    transition: 0.5s all ease;
+    
+
+}
+.nav-bar ul li a:hover{
+    background-color: grey;
+}
+.nav-bar  .active{
+    background-color: grey;
+
+}
+.nav-bar  .active:hover{
+    color: lightgrey;
+}
+
